@@ -1,13 +1,13 @@
 @font-face{
     font-family: "AR BONNIE";
     src: url('fonts/ARBONNIE.ttf'),
-    /* url('ARBONNIE.eot'); IE */
+    url('ARBONNIE.eot'); /* IE */
 }
 
 @font-face{
     font-family: "Century Gothic";
     src: url('fonts/Centurygothic.ttf'),
-   /* // url('centurygothic.eot'); IE */
+    url('centurygothic.eot'); /* IE */
 }
 
 .nav-item
@@ -40,7 +40,10 @@
 
 .abtrow
 {
+		//background-color: #00bfe0;
 		
+
+		//height: 40%;
 		width: auto;
 
 }
@@ -63,7 +66,7 @@
 
 .abtcontainer
 {
-	
+	//background-color: #ededed;
 	width: 100%;
 	
 	
@@ -111,7 +114,7 @@
 
 .whatweare, .missionvision, .culturevalues, .bethebrand
 {
-	
+	//background-color: #FFD380;
 	padding:2%;
 
 
@@ -154,12 +157,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     height:30%;
-    
+    //opacity: 0.7;
 }
 
 .parallaxx1, .parallaxx2, .parallaxx3
 {
-
+	//background-image: url("offer.jpg");
 	 background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -195,7 +198,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height:40%;
-   
+    //opacity: 0.7;
 }
 
 .offerrow
@@ -210,7 +213,7 @@
 
 .cakescol
 {
-	
+	//background-color: #0000ee;
 	padding: 3%;
 
 }
@@ -241,9 +244,9 @@
 
 .bunsrow
 {
-	
+	//background-color: #bb0000;
 	height:50%;
-	padding-top: 0%;
+	padding-top: %;
 	padding-right: 6%;
 
 }
@@ -277,7 +280,7 @@
 {
 	height:100%;
 	width: 100%;
-	
+	//background-color: #E24C43;
 	margin: 0%;
 
 }
@@ -287,7 +290,7 @@
 	background-image: url("about.jpg");
 	background-clip: auto;
 	background-attachment: fixed;
-   
+    //background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -327,11 +330,12 @@
 		
 	
 	background-color: #000000;
-	
+	//height: auto;
 }
 
 .offeritems
 {
+	//background-color: #E24C43;
 	
 	padding: 2%;
 	font-size: 2em;
@@ -344,7 +348,7 @@
 .offercon
 {
 	background-color: #00f7f5e6;
-	
+		//height: 100%;
 		text-align: center;
 
 
@@ -402,11 +406,9 @@
 }*/
 
 .card-columns {
-
   @include media-breakpoint-only(lg) {
     column-count: 3;
   }
-
   @include media-breakpoint-only(md) {
     column-count: 3;
   }
@@ -415,7 +417,7 @@
 .cardmain
 {
 	height: 30%;
-	
+	//background-color:#00aaaa;
 	margin:1%; 
 }
 
@@ -470,7 +472,7 @@
 
 .crow
 {
-		
+		//padding: 3%;
 		border: 1px solid #ddd;
 		box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
@@ -534,9 +536,9 @@
 
 .itemrow
 {
-	
+	//width: 100%;
 	height:auto;
-	
+	//background-color: #0aa000;
 	margin: 0%;
 }
 
@@ -781,7 +783,7 @@
 	border-radius: 0px;
 	width: 100%;
 	margin-top: 5%;
-	
+	//border-color:#E24C43;
 	background-color: #E24C43;
 	font-family: Century Gothic;
 	font-weight: bold;
@@ -807,7 +809,7 @@
 
 .totalitems
 {
-	
+	//background-color: #000000;
 	padding: 0%;
 	margin-top: 5%;
 	color:#E24C43;
@@ -870,8 +872,8 @@
 
 .abtcontainer
 {
-
-	height:auto;
+	//margin-top: 2%;
+	height:auto%;
 	
 
 }
@@ -918,7 +920,8 @@
 
 .abtrow
 {
-	height:auto;
+	height:auto%;
+	//background-color: #00aa00;
 }
 
 .abtpic
@@ -983,8 +986,9 @@
 
 .abtcontainer
 {
-	height:auto;
-		
+	height:auto%;
+		//margin-top: 2%;
+
 }
 
 /*.abtpic1
@@ -1026,7 +1030,7 @@
 
 .abtrow
 {
-	height:auto;
+	height:auto%;
 }
 
 /*.jwclass
@@ -1091,7 +1095,7 @@ height: auto;
 .abtcontainer
 {
 	height:auto;
-		
+		//margin-top: 5%;
 
 }
 /*.abtpic1
